@@ -36,6 +36,11 @@
   "dependencies": {
     "babel": "^5.8.3",
     "express": "^4.13.1",
-    "react": "^0.13.3"
+    "invariant": "^2.1.0",
+    "keymirror": "^0.1.1",
+    "qs": "^4.0.0",
+    "react": "^0.13.3",
+    "react-router": "^1.0.0-beta3",
+    "warning": "^2.0.0"
   }
 }

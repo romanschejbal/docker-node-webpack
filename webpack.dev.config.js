@@ -28,7 +28,7 @@ module.exports = [{
   entry: [
     'webpack-dev-server/client?http://' + host + ':' + port,
     'webpack/hot/dev-server',
-    './src/client/app'
+    './src/client/index'
   ],
   output: {
     path: path.join(__dirname, '/build'),

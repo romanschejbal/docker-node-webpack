@@ -17,7 +17,6 @@ gulp.task('webpack-dev-server', () => {
   new WebpackDevServer(webpack(webpackConfig[0]), {
     hot: true,
     inline: true,
-    //publicPath: webpackConfig[0].output.publicPath,
     stats: {
       assets: true,
       colors: true,

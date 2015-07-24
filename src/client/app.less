@@ -1,6 +1,48 @@
 @import '../../node_modules/lesshat/build/lesshat';
 
 body {
-  background: black;
+  background: #111;
   color: white;
+  font-family: monospace;
+}
+
+a, a:visited {
+  color: lime;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  li {
+    margin: 0px 10px 0px 0px;
+    padding: 0;
+    float: left;
+  }
+}
+
+.btn {
+  padding: 5px;
+  text-decoration: none;
+  border: 1px solid black;
+  .transition(all .5s);
+  .border-radius(5px);
+
+  &.active {
+    color: black;
+    background: lime;
+    border: 1px solid lime;
+  }
+
+  &:hover {
+    border: 1px solid lime;
+  }
+}
+
+.clear {
+  clear: both;
+}
+
+.menu {
+  margin: 0px 0px 50px;
 }

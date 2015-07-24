@@ -14,7 +14,7 @@ export default class Header extends Component {
   componentDidMount() {
     this.interval = setInterval(() => {
       this.setState({ count: this.state.count + 1 });
-    }, 500);
+    }, 100);
   }
 
   componentWillUnmount() {
@@ -29,7 +29,7 @@ export default class Header extends Component {
   render() {
     return (
       <div onClick={this.handleClick.bind(this)}>
-        <h2>Couner</h2>
+        <h2>Counter</h2>
         <p>
           COUNTER: <strong>{this.state.count}</strong>
         </p>
